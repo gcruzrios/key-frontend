@@ -1,16 +1,17 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
-import Header from "../components/Header";
+
 import Footer from "../components/Footer";
 import Home from "../components/Home";
+import HeaderMain from "../components/HeaderMain";
 
 const Dashboard = () => {
   return (
     <div>
       <Sidebar />
       <main class="main">
-        <Header />
-        <Home/>
+        <HeaderMain />
+        <Home/> 
         <Footer/>
       </main>
     </div>

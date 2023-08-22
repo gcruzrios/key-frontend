@@ -4,54 +4,54 @@ const Home = () => {
   return (
     <div>
         {/* <!-- inicio contenido --> */}
-    <div class="div-main">
+    <div className="div-main">
       <section>
-        <h1 class="title-page">Dashboard</h1>
+        <h1 className="title-page">Dashboard</h1>
       </section>
-      <section class="content-main lineBot">
+      <section className="content-main lineBot">
         <div>
-        <p class="lineBot-text">Vista General</p>
+        <p className="lineBot-text">Vista General</p>
        </div>
-        <div class="dropdown ">
-          <button class="btn btn-save dropdown-toggle dropdown-hover " type="button" id="dropdownMenuButton"
+        {/* <div className="dropdown ">
+          <button className="btn btn-save dropdown-toggle dropdown-hover " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             GUARDAR
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Como imagene</a>
-            <a class="dropdown-item lineTop" href="#">Como PDF</a>
+          <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a className="dropdown-item" href="#">Como imagene</a>
+            <a className="dropdown-item lineTop" href="#">Como PDF</a>
           </div>
-        </div>
+        </div> */}
 
       </section>
-      <section class="cards">
-        <div class="row row-cols-1 row-cols-md-3">
+      <section className="cards">
+        <div className="row row-cols-1 row-cols-md-3">
 
-          <div class="col mb-4">
-            <div class="card">
-              <div class="card-body wrapper-title">
-                <h5 class="card-title">Notificaciones</h5>
+          <div className="col mb-4">
+            <div className="card">
+              <div className="card-body wrapper-title">
+                <h5 className="card-title">Notificaciones</h5>
               </div>
               
-              <img src="./imagenes/campana.png" class="card-img-top img-cards" alt="Icono de notificaciones"/>
+              <img src="./imagenes/campana.png" className="card-img-top img-cards" alt="Icono de notificaciones"/>
 
-              <div class="card-body">
-                <p class="card-text text-notification">No hay notificaciones en este momento.</p>
+              <div className="card-body">
+                <p className="card-text text-notification">No hay notificaciones en este momento.</p>
               </div>
             </div>
           </div>
 
-          <div class="col mb-4">
-            <div class="card">
-              <div class="card-body wrapper-title">
-                <h5 class="card-title">Estado de PAM</h5>
+          <div className="col mb-4">
+            <div className="card">
+              <div className="card-body wrapper-title">
+                <h5 className="card-title">Estado de PAM</h5>
               </div>
               
-              <img src="./imagenes/datos-PAM.png" class="card-img-top img-cards-two" alt="..."/>
+              <img src="./imagenes/datos-PAM.png" className="card-img-top img-cards-two" alt="..."/>
 
-              <div class="card-body">
-                <div class="applicable_style"><i class='bx bxs-square'></i><p class="card-text">59 Aplicables</p></div>
-                <div class="no_applicable_style"><i class='bx bxs-square no_appli'></i><p class="card-text">20 No aplicables</p></div>
+              <div className="card-body">
+                <div className="applicable_style"><i className='bx bxs-square'></i><p className="card-text">59 Aplicables</p></div>
+                <div className="no_applicable_style"><i className='bx bxs-square no_appli'></i><p className="card-text">20 No aplicables</p></div>
               </div>
             </div>
           </div>

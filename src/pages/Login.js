@@ -32,7 +32,7 @@ const Login = () => {
     const ingreso = { usuario, password };
     const Token = localStorage.getItem("Token");
 
-    console.log(Token);
+    //console.log(Token);
 
     const response = await axios.post(`/wsSIPAM/GetUsuario`, ingreso, {
       headers: { Authorization: "Bearer " + Token },
@@ -86,7 +86,7 @@ const Login = () => {
               <img
                 class="mb-4"
                 src="https://conapam.go.cr/wp-content/uploads/2023/02/CONAPAM_WEB.jpg"
-                alt=""
+                alt="CONAPAM"
                 width="125"
                 height="170"
               />
