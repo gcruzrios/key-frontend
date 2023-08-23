@@ -93,42 +93,12 @@ const NavBar = () => {
             </li> 
           </ul> 
 
-          {/* <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/> 
+          <form className="form-inline my-2 my-lg-0">
+            <input className="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar"/> 
 
-            <li className="nav-item active">
-              
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Opciones
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  Configuración
-                </a>
-
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
-                <div className="text-center">
-                  <Link to="/" onClick={() => logout()}>
-                    Cerrar sesión
-                  </Link>
-                </div>
-              </div>
-            </li>
             
-          </form> */} 
+            
+          </form>  
         </div>
       </nav>
     </div>
