@@ -39,7 +39,7 @@ const Home = () => {
               <div className="col mb-4">
                 <div className="card">
                   <div className="card-body wrapper-title">
-                    <h5 className="card-title">Estado de PAM</h5>
+                    <h5 className="card-title">Documentos de PAM</h5>
                   </div>
 
                   <img
