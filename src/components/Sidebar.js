@@ -7,7 +7,7 @@ const Sidebar = () => {
 <nav className="nav_styles">
     <div>
     
-      <img src="https://conapam.go.cr/wp-content/uploads/2023/02/CONAPAM_WEB.jpg" alt="Logo CONAPAM"  width="125" height="170"/>
+      <img src="https://conapam.go.cr/wp-content/uploads/2023/02/CONAPAM_WEB.jpg" alt="Logo CONAPAM"  width="125" height="170" className="mt-4" />
     </div>
     <ul className="ul_styles">
       <li className="list_item"><a className="a" href="dashbord.html"><i className='bx bxs-dashboard'></i> Dashboard</a> </li>

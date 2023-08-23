@@ -5,13 +5,14 @@ const Home = () => {
     <div>
         {/* <!-- inicio contenido --> */}
     <div className="div-main">
-      <section>
+      <div className='container-lg'>
+      {/* <section>
         <h1 className="title-page">Dashboard</h1>
-      </section>
+      </section> */}
       <section className="content-main lineBot">
-        <div>
+        {/* <div>
         <p className="lineBot-text">Vista General</p>
-       </div>
+       </div> */}
         {/* <div className="dropdown ">
           <button className="btn btn-save dropdown-toggle dropdown-hover " type="button" id="dropdownMenuButton"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,6 +62,8 @@ const Home = () => {
       </section>
 
     </div>
+      </div>
+      
 
     </div>
   )
